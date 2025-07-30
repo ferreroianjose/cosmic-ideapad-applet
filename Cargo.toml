@@ -1,0 +1,20 @@
+[package]
+name = "ideapad-applet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+glob = "0.3.2"
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic"
+default-features = false
+features = ["applet", "tokio", "wayland"]
+
+[[bin]]
+name = "ideapad_applet"
+path = "src/main.rs"
+
+[[bin]]
+name = "ideapad_applet_writer"
+path = "src/helper.rs"

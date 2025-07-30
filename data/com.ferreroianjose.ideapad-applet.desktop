@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Ideapad Applet
+Type=Application
+Exec=ideapad_applet
+Terminal=false
+Categories=COSMIC;
+Keywords=COSMIC;Iced;
+Icon=display-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Start
+X-OverflowPriority=10[Desktop Entry]
