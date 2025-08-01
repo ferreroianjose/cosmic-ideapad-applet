@@ -1,5 +1,7 @@
 # Cosmic Ideapad Control
 
+![](screenshot)
+
 ## Description
 
 A simple applet for the [Cosmic Desktop Environment](https://system76.com/cosmic/) that controls hardware features exposed via the by the [ideapad laptop kernel module](https://github.com/torvalds/linux/blob/master/Documentation/ABI/testing/sysfs-platform-ideapad-laptop). Built for personal use.
